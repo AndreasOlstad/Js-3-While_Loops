@@ -4,7 +4,7 @@ let i = 0
 while (i <= 50) {
     console.log (i);
     i++;
-}
+} 
 */
 
 //oppgave 2
@@ -48,25 +48,31 @@ console.log(total);
 */
 
 //oppgave 6
+
 /*
-let pyramid = '';
-for (let i = 1; i <= 4; i++) {
-    pyramid += '#';
-    console.log(pyramid);
+let pyramide = '';
+let i = 1;
+while (i <= 4) {
+    pyramide += '#';
+    console.log(pyramide);
+    i++;
 }
 */
 
 //oppgave 7
 /*
-let pyramid = '';
-for (let i = 1; i <= 50; i++) {
-    pyramid += '#';
-    console.log(pyramid);
+let pyramide = '';
+let i = 1;
+while (i <= 50) {
+    pyramide += '#';
+    console.log(pyramide);
+    i++;
 }
+
 */
 
 //oppgave 8-Utfordring
-
+/*
 let i = 1;
 while (i <= 100) {
   if (i % 3 == 0 && i % 5 == 0) {
@@ -80,3 +86,4 @@ while (i <= 100) {
   }
   i++;
 }
+*/
